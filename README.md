@@ -2,6 +2,14 @@
 
 A simple server made with nodejs and express
 
+The server have this routes:
+
+/ - GET  -> To check if the server works
+
+/ - POST -> To check if POST works
+
+/sensores - POST -> To connect and esp32 and show the data in console
+
 If you want to run for test your devices, use docker for simple usage,
 following this steps:
 
