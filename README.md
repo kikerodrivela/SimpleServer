@@ -10,8 +10,7 @@ The server have this routes:
 
 /sensores - POST -> To connect and esp32 and show the data in console
 
-If you want to run for test your devices, use docker for simple usage,
-following this steps:
+If you want to test in your devices, use docker for simple usage, following this steps:
 
 1 - First you need to create your own image with this:
     "docker build --tag simple-server . "
