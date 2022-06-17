@@ -20,4 +20,4 @@ following this steps:
     "sudo docker run -d -p 3000:3000 --name simple-server simple-server"
 
 3 - If you want to view the console.log of the container use this:
-    "sudo docker logs -f <Nombre del contenedor>"
+    "sudo docker logs -f simple-server"
