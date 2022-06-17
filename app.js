@@ -21,7 +21,7 @@ app.post('/sensores', function (request, response) {
     console.log(".............................................");
     console.log("Recieved a post request");
     console.log("request.body: ", request.body);        // your JSON
-
+    console.log("Hora y Dia de envio: ", datelocal);
     response.send(request.body);                        // echo the result back
     console.log(".............................................");
 
